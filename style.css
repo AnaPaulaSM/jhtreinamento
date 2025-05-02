@@ -25,17 +25,17 @@ h1, h2 {
   opacity: 0.8;
   color: var(--branco);
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .logo {
-  max-width: 160px;
-  margin-bottom: 2rem;
+  max-width: 260px;
+  margin-bottom: 0.5rem;
 }
 
 .header-content h1 {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .header-content p {
