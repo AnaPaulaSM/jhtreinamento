@@ -22,6 +22,7 @@ h1, h2 {
 
 .header {
   background: var(--azul-logo);
+  opacity: 0.8;
   color: var(--branco);
   text-align: center;
   padding: 2rem 1rem;
@@ -112,8 +113,9 @@ h1, h2 {
 }
 
 .cta {
-  background-color: var(--branco);
-  /*color: var(--azul-logo);*/
+  background-color: var(--cinza-fundo);
+  /*background-color: var(--branco);
+  color: var(--azul-logo);*/
   color: var(--texto);
   padding: 3rem 1rem;
   text-align: center;
@@ -153,7 +155,9 @@ h1, h2 {
 }
 
 .galeria {
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-color: var(--azul-logo);
+  opacity: 0.8;
   padding: 2rem 1rem;
   text-align: center;
 }
@@ -225,6 +229,7 @@ h1, h2 {
 
 .footer {
   background-color: var(--azul-logo);
+  opacity: 0.8;
   color: var(--branco);
   text-align: center;
   padding: 1rem;
