@@ -1,0 +1,244 @@
+:root {
+  --azul-logo: #013C54;
+  --azul-claro: #00bcd4;
+  --verde: #4caf50;
+  /*--amarelo: #ffeb3b;*/
+  --cinza-fundo: #f5f5f5;
+  --branco: #ffffff;
+  --texto: #333;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--cinza-fundo);
+  color: var(--texto);
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.header {
+  background: var(--azul-logo);
+  color: var(--branco);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.logo {
+  max-width: 160px;
+  margin-bottom: 2rem;
+}
+
+.header-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.header-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background-color: var(--azul-claro);
+  color: var(--branco);
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0097a7;
+}
+
+.section, .container {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.beneficios h2,
+.sobre h2,
+.cta h2,
+.contact h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.grid-beneficioss {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.beneficios-card {
+  background: var(--branco);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  font-size: 1rem;
+}
+
+.sobre .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.sobre img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sobre p {
+  max-width: 600px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.cta {
+  background-color: var(--branco);
+  /*color: var(--azul-logo);*/
+  color: var(--texto);
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.cta-horizontal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  text-align: left;
+}
+
+.cta-text {
+  max-width: 300px;
+
+}
+
+.cta-text h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+}
+
+.cta-text p {
+  margin-bottom: 1rem;
+}
+
+.btn-secondary {
+  background-color: var(--verde);
+  color: var(--azul-logo, #003366);
+  padding: 0.7rem 1.5rem;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.galeria {
+  background-color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.cta-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.cta-images img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.cta-images img:hover {
+  transform: scale(1.05);
+}
+
+
+/* Responsivo para telas menores */
+@media (max-width: 768px) {
+  .cta-horizontal {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta-text {
+    max-width: 100%;
+  }
+
+  .cta-images {
+    justify-content: center;
+  }
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.2);
+}
+
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact input,
+.contact textarea {
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.footer {
+  background-color: var(--azul-logo);
+  color: var(--branco);
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Mobile first, já responsivo! */
+@media (max-width: 600px) {
+  .header-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .btn-primary, .btn-secondary {
+    width: 100%;
+    padding: 1rem;
+  }
+}
