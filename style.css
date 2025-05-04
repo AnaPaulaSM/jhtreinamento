@@ -74,7 +74,7 @@ h1, h2 {
 .cta h2,
 .contact h2 {
   font-size: 1.8rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .grid-beneficioss {
@@ -97,21 +97,30 @@ h1, h2 {
 
 .sobre .container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row; /* agora imagem + texto ficam lado a lado */
+  align-items: flex-start;
   gap: 2rem;
-  flex-wrap: wrap;
-  padding: 2rem 1rem;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
+  padding: 2rem;
   text-align: left;
 }
 
+.perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .sobre img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
+  border-radius: 100%;
+  max-width: 180px;
+}
+
+.sobre span {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .sobre p {
@@ -270,5 +279,34 @@ h1, h2 {
   .btn-primary, .btn-secondary {
     width: 100%;
     padding: 1rem;
+  }
+}
+
+/* Ajuste responsivo: reduz a fonte em telas menores */
+@media (max-width: 600px) {
+  .beneficios-card {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .beneficios-card img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .beneficios h2 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .sobre .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sobre p {
+    text-align: justify;
   }
 }
