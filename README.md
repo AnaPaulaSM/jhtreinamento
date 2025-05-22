@@ -19,7 +19,7 @@ img/ – Pasta contendo as imagens utilizadas no site
 
 📦 Como Executar o Projeto Localmente
 
-Clone o repositório:
+1. Clone o repositório:
 
 git clone https://github.com/AnaPaulaSM/jhtreinamento.git
 
