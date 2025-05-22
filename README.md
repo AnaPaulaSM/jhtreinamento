@@ -11,6 +11,7 @@ HTML5
 CSS3
 
 📂 Estrutura do Projeto
+
 index.html – Página principal do site
 
 style.css – Estilos aplicados à página
