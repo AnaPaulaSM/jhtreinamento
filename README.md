@@ -2,13 +2,16 @@ Projeto de site institucional desenvolvido com o objetivo de apresentar informa�
 
 🔗 Acesse o site: https://jh-treinamento.vercel.app/
 
-📌 Visão Geral
+
 Este projeto consiste em uma página web responsiva, construída utilizando HTML e CSS, visando proporcionar uma experiência agradável aos usuários em diferentes dispositivos.
 
+
 🚀 Tecnologias Utilizadas
+
 HTML5
 
 CSS3
+
 
 📂 Estrutura do Projeto
 
@@ -17,6 +20,7 @@ index.html – Página principal do site
 style.css – Estilos aplicados à página
 
 img/ – Pasta contendo as imagens utilizadas no site
+
 
 📦 Como Executar o Projeto Localmente
 
@@ -29,6 +33,7 @@ git clone https://github.com/AnaPaulaSM/jhtreinamento.git
 cd jhtreinamento
 
 3. Abra o arquivo index.html em seu navegador preferido.
+   
 
 📝 Licença
 Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
