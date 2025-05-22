@@ -1,6 +1,6 @@
 Projeto de site institucional desenvolvido com o objetivo de apresentar informações sobre os serviços oferecidos e facilitar o contato com os clientes.
 
-🔗 Acesse o site: jh-funcional.vercel.app
+🔗 Acesse o site: https://jh-treinamento.vercel.app/
 
 📌 Visão Geral
 Este projeto consiste em uma página web responsiva, construída utilizando HTML e CSS, visando proporcionar uma experiência agradável aos usuários em diferentes dispositivos.
